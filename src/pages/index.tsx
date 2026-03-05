@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero";
 import ProfileBio from "@/components/ProfileBio";
+import Works from "@/components/Works";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <ProfileBio />
+          <Works />
         </main>
       </div>
     </>

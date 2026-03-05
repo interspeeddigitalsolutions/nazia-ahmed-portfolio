@@ -1,0 +1,77 @@
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* Ensures columns have same height */
+    gap: 40px;
+    padding: 80px 40px;
+    background-color: #F8CB60;
+    /* Matches the golden-yellow background in the image */
+    min-height: auto;
+}
+
+.leftContent,
+.rightContent {
+    background-color: #222222;
+    flex: 0 1 450px;
+    /* Fixed maximum width, similar to the image's layout */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* No gaps between cards */
+    /* Containers grow with content naturally */
+}
+
+.workCard {
+    background-color: #222222;
+    /* Dark background as seen in the cards */
+    color: #ffffff;
+    padding: 40px;
+    /* flex: 1; */
+    /* Makes cards grow to fill the column height */
+}
+
+.workCard h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.workCard ul {
+    list-style: none;
+    /* We'll use custom dots if needed, but the image shows simple text/list */
+    padding: 0;
+    margin: 0;
+}
+
+.workCard li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.workCard li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .works {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 20px;
+        gap: 30px;
+    }
+
+    .leftContent,
+    .rightContent {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+    }
+}
