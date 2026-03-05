@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <div className={styles.page}>
         <main className={styles.main}>
-          <h1>Nazia Ahmed</h1>
+          <Hero />
         </main>
       </div>
     </>
