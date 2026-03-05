@@ -15,7 +15,7 @@ export default function Home() {
         <title>Nazia Ahmed</title>
         <meta name="description" content="Nazia Ahmed" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/site-logo.png" />
       </Head>
       <div className={styles.page}>
         <Navbar />
