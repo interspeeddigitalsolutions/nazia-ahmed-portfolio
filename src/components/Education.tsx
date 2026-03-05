@@ -2,7 +2,7 @@ import styles from "@/styles/Education.module.css";
 
 const Education = () => {
     return (
-        <section className={styles.education}>
+        <section id="education" className={styles.education}>
             <div className={styles.leftContent}>
                 <img
                     src="/assets/education-cover.avif"

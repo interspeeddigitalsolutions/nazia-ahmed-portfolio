@@ -2,7 +2,7 @@ import styles from "@/styles/Works.module.css";
 
 const Works = () => {
     return (
-        <section className={styles.works}>
+        <section id="exhibition" className={styles.works}>
             <div className={styles.leftContent}>
                 <div className={styles.workCard}>
                     <h3>Solo Exhibitions:</h3>

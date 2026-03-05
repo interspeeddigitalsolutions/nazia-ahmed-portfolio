@@ -1,0 +1,138 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a365d;
+    font-family: var(--font-hanken-grotesk);
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.burgerIcon {
+    display: none;
+    width: 30px;
+    height: auto;
+}
+
+.menuButton:hover {
+    opacity: 0.7;
+}
+
+/* OVERLAY MENU */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease;
+    visibility: hidden;
+}
+
+.overlay.open {
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.closeButton {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1a365d;
+    padding: 10px;
+}
+
+.menuLinks {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkItem {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #d1d5db;
+    /* Separator lines as seen in design */
+    padding: 30px 0;
+}
+
+/* No line for the last item or specific pattern from image */
+.linkItem:first-child {
+    border-top: 1px solid #d1d5db;
+}
+
+.linkItem a {
+    font-family: inherit;
+    font-size: 32px;
+    color: #1a365d;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.linkItem a:hover {
+    color: #000;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .menuButton {
+        font-size: 18px;
+    }
+
+    .menuText {
+        display: none;
+    }
+
+    .burgerIcon {
+        display: block;
+        width: 40px;
+        /* Adjusting for clear visibility on mobile */
+    }
+
+    .linkItem a {
+        font-size: 28px;
+        padding: 2px 0;
+    }
+
+    .closeButton {
+        top: 20px;
+        right: 20px;
+    }
+}

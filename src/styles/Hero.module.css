@@ -9,7 +9,7 @@
 
 .leftBg {
     flex: 1;
-    background-image: url('/assets/leftbg.png');
+    background-image: url('/assets/leftbg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -67,7 +67,7 @@
 }
 
 .leftContent p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4;
     max-width: 300px;
     margin: 0 auto 30px;

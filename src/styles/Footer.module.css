@@ -32,7 +32,7 @@
 }
 
 .column p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.8;
     margin: 0;
 }
@@ -91,6 +91,6 @@
     }
 
     .column p {
-        font-size: 14px;
+        font-size: 18px;
     }
 }

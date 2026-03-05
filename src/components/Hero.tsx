@@ -2,7 +2,7 @@ import styles from "@/styles/Hero.module.css";
 
 const Hero = () => {
     return (
-        <section className={styles.hero}>
+        <section id="home" className={styles.hero}>
             <div className={styles.leftBg}>
                 <div className={styles.leftContent}>
                     <h1><span>Nazia</span> Ahmed</h1>

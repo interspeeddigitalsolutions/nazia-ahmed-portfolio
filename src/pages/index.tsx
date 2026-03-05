@@ -6,6 +6,7 @@ import Works from "@/components/Works";
 import Recognitions from "@/components/Recognitions";
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.page}>
+        <Navbar />
         <main className={styles.main}>
           <Hero />
           <ProfileBio />
