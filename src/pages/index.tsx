@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero";
 import ProfileBio from "@/components/ProfileBio";
 import Works from "@/components/Works";
+import Recognitions from "@/components/Recognitions";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Hero />
           <ProfileBio />
           <Works />
+          <Recognitions />
         </main>
       </div>
     </>
