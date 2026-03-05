@@ -20,7 +20,7 @@ const Works = () => {
                         <li>2021: Art installer : “Elephant in the Room” at Dubai Design District. 2020: Art installer : “Elephant in the room” at Candian High Commission.</li>
                         <li>2019 : Project Coordinator : 15 Italian Contemporary Art day (Giornata DelContemporaneo) at Bay Edge Gallery.</li>
                         <li>2018 : Project Coordinator : Candian Contemporary Artist “Charles Pachter’s “show at</li>
-                        <li>National Museam of Banglades</li>
+                        <li>National Museam of Bangladesh</li>
                     </ul>
                 </div>
             </div>
