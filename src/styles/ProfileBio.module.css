@@ -1,0 +1,92 @@
+.profileBio {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.leftContent {
+    flex: 0 0 50%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+}
+
+.leftContent h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.leftContent p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.leftContent button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    /* Override global button font if necessary, though hanken-grotesk is expected */
+}
+
+.leftContent button:hover {
+    opacity: 0.8;
+}
+
+.rigthContent {
+    flex: 0 0 50%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.rigthContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .profileBio {
+        flex-direction: column;
+    }
+
+    .leftContent {
+        width: 100%;
+        flex: none;
+        padding: 60px 24px;
+        order: 1;
+    }
+
+    .leftContent h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .leftContent p {
+        font-size: 16px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .rigthContent {
+        width: 100%;
+        flex: none;
+        height: 400px;
+        order: 2;
+    }
+}
