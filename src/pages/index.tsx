@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import ProfileBio from "@/components/ProfileBio";
 import Works from "@/components/Works";
 import Recognitions from "@/components/Recognitions";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <ProfileBio />
           <Works />
           <Recognitions />
+          <Education />
         </main>
       </div>
     </>
