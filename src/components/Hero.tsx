@@ -7,9 +7,9 @@ const Hero = () => {
                 <div className={styles.leftContent}>
                     <h1><span>Nazia</span> Ahmed</h1>
                     <p>I am Nazia, one of many aspiring Bengali artists who's fascinated about the beautiful world around us</p>
-                    <button className={styles.triangleDown}>
+                    <a href="#about" className={styles.triangleDown}>
                         <img src="/assets/down-black.png" alt="scroll down" />
-                    </button>
+                    </a>
                 </div>
             </div>
 
