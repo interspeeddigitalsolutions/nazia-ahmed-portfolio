@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from "@/styles/Navbar.module.css";
+import { IconBrandInstagram, IconBrandFacebook } from '@tabler/icons-react';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,10 +23,20 @@ const Navbar = () => {
                 <div className={styles.logoWrapper}>
                     <img src="/assets/site-logo.png" alt="Logo" className={styles.logo} />
                 </div>
-                <button className={styles.menuButton} onClick={toggleMenu}>
-                    <span className={styles.menuText}>Menu</span>
-                    <img src="/assets/burger-menu.png" alt="Menu" className={styles.burgerIcon} />
-                </button>
+                <div className={styles.navRight}>
+                    <div className={styles.socialIcons}>
+                        <a href="https://www.instagram.com/naznaznaziastudio?igsh=NzVsMGwwNnFoaXYz&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                            <IconBrandInstagram className={styles.socialIcon} stroke={1.5} />
+                        </a>
+                        <a href="https://www.facebook.com/share/1CRMn5zh7w/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                            <IconBrandFacebook className={styles.socialIcon} stroke={1.5} />
+                        </a>
+                    </div>
+                    <button className={styles.menuButton} onClick={toggleMenu}>
+                        <span className={styles.menuText}>Menu</span>
+                        <img src="/assets/burger-menu.png" alt="Menu" className={styles.burgerIcon} />
+                    </button>
+                </div>
             </nav>
 
             <div className={`${styles.overlay} ${isMenuOpen ? styles.open : ''}`}>

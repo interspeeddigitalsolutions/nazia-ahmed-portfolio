@@ -13,6 +13,30 @@
     width: auto;
 }
 
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.socialIcon {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s;
+    display: block;
+    color: #1a365d;
+}
+
+.socialIcon:hover {
+    opacity: 0.7;
+}
+
 .menuButton {
     background: none;
     border: none;
@@ -118,6 +142,19 @@
 
     .menuText {
         display: none;
+    }
+
+    .navRight {
+        gap: 15px;
+    }
+
+    .socialIcons {
+        gap: 10px;
+    }
+
+    .socialIcon {
+        width: 24px;
+        height: 24px;
     }
 
     .burgerIcon {
