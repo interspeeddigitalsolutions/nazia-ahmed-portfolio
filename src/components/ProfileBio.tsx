@@ -5,7 +5,9 @@ const ProfileBio = () => {
         <section id="about" className={styles.profileBio}>
             <div className={styles.leftContent}>
                 <h2>Artist Profile</h2>
-                <p>I am Nazia, one of many aspiring Bengali artists who's fascinated about the beautiful world around us. My fascination of the colors and shapes in my surroundings are expressed vividly in my artwork. This fascination turns into inspiration for my countlessworks of art. The dreams I see come to life on a blank piece of canvas in which I relive my childhood, my surroundings and my life through. I tell my story through the strokesof my paintbrush and a part of me goes into every painting I make. Art is my life, my dream, my passion and like many others, I am motivated to live my fantasy and make my surroundings even more beautiful.</p>
+                <p>
+                    I am Nazia, a Bengali artist whose curiosity fuels expansive creativity. My journey begins with colors and clay shapes that mold tangible forms, then transforms into art that voices my inner musings. Unstated feelings breathe on blank canvases as I paint poetry, letting strokes narrate stories I may not utter aloud. Each piece embodies a fragment of me, a life lived through pigment and texture. Art isn’t separate from my existence; it is my life. This evolving practice bridges clay sculpture and painted poetry, serving as a growing dialogue between thought, emotion, and audience.
+                </p>
                 <button>Contact Me</button>
             </div>
 
