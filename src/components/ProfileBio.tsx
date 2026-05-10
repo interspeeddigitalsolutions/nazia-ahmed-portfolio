@@ -12,7 +12,7 @@ const ProfileBio = () => {
             </div>
 
             <div className={styles.rigthContent}>
-                <img src="/assets/profile-bio-right-img.avif" alt="artist-bio-cover" />
+                <img src="/assets/profile-bio-right-img.jpg" alt="artist-bio-cover" />
             </div>
         </section>
     );
