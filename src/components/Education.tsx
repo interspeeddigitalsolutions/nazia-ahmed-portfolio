@@ -5,7 +5,7 @@ const Education = () => {
         <section id="education" className={styles.education}>
             <div className={styles.leftContent}>
                 <img
-                    src="/assets/education-cover.avif"
+                    src="/assets/education-cover.jpg"
                     alt="Education Background"
                     className={styles.coverImage}
                 />

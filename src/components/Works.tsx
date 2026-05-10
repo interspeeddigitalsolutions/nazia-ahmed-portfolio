@@ -5,16 +5,6 @@ const Works = () => {
         <section id="exhibition" className={styles.works}>
             <div className={styles.leftContent}>
                 <div className={styles.workCard}>
-                    <h3>Solo Exhibitions:</h3>
-                    <ul>
-                        <li>2022 : “Involutary Solitude” - Nordic Club</li>
-                        <li>2019 : “Life Collages” - American Embassy EmployeeAssociation (AEEA).</li>
-                        <li>2018 : “Colours of Bangladesh” : American Embassy Employee Association(AEEA).</li>
-                        <li>2012 : “Of Pen & Paint : Visions of Nature” - Bagha Club.</li>
-                    </ul>
-                </div>
-
-                <div className={styles.workCard}>
                     <h3>Projects:</h3>
                     <ul>
                         <li>2022: Collaborative art initiative supported by UNHCR . Implanting partner: BRAC worked as a Art facilitator/Educator to Develop the idea to make community mural with Rohingya community at Bhashan Char /Relocated Island</li>
@@ -22,6 +12,16 @@ const Works = () => {
                         <li>2020: Art installer : “Elephant in the room” at Candian High Commission.</li>
                         <li>2019 : Project Coordinator : 15 Italian Contemporary Art day (Giornata DelContemporaneo) at Bay Edge Gallery.</li>
                         <li>2018 : Project Coordinator : Candian Contemporary Artist “Charles Pachter’s “show at National Museam of Bangladesh</li>
+                    </ul>
+                </div>
+
+                <div className={styles.workCard}>
+                    <h3>Solo Exhibitions:</h3>
+                    <ul>
+                        <li>2022 : “Involutary Solitude” - Nordic Club</li>
+                        <li>2019 : “Life Collages” - American Embassy EmployeeAssociation (AEEA).</li>
+                        <li>2018 : “Colours of Bangladesh” : American Embassy Employee Association(AEEA).</li>
+                        <li>2012 : “Of Pen & Paint : Visions of Nature” - Bagha Club.</li>
                     </ul>
                 </div>
             </div>
