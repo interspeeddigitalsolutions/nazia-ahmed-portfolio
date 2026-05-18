@@ -1,0 +1,205 @@
+.gallery {
+    padding: 80px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: #000;
+}
+
+.masonryGrid {
+    column-count: 3;
+    column-gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.artworkCard {
+    break-inside: avoid;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    padding: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.artworkCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.artworkCard:hover .imageWrapper img {
+    opacity: 0.9;
+}
+
+.imageWrapper {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.artworkInfo {
+    text-align: left;
+}
+
+.artworkName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+    font-family: var(--font-eb-garamond);
+}
+
+.artworkMedium {
+    font-size: 16px;
+    color: #666;
+    font-family: var(--font-lato);
+}
+
+@media (max-width: 1024px) {
+    .masonryGrid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        padding: 60px 20px;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .masonryGrid {
+        column-count: 2;
+        column-gap: 15px;
+    }
+
+    .artworkCard {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .artworkName {
+        font-size: 18px;
+    }
+
+    .artworkMedium {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .masonryGrid {
+        column-count: 1;
+    }
+}
+
+/* Lightbox Overrides */
+:global(.yarl__root) {
+    --yarl__thumbnails_container_background: transparent !important;
+    --yarl__thumbnails_thumbnail_background: transparent !important;
+    --yarl__slide_captions_container_background: rgba(0, 0, 0, 0.7) !important; /* Semi-transparent black */
+}
+
+:global(.yarl__container) {
+    background-color: #000000 !important;
+}
+
+:global(.yarl__captions_container) {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 15px 20px !important;
+    bottom: 0 !important;
+    top: auto !important;
+}
+
+:global(.yarl__slide_title_container),
+:global(.yarl__slide_description_container) {
+    background: transparent !important;
+}
+
+:global(.yarl__captions_title) {
+    font-family: var(--font-eb-garamond) !important;
+    font-size: 20px !important;
+    margin-bottom: 4px !important;
+    color: #fff !important;
+}
+
+:global(.yarl__captions_description) {
+    font-family: var(--font-lato) !important;
+    font-size: 14px !important;
+    color: #ccc !important;
+}
+
+:global(.yarl__toolbar) {
+    background: transparent !important;
+}
+
+:global(.yarl__button) {
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+}
+
+:global(.yarl__slide_image) {
+    padding: 20px 0 80px 0 !important; /* Adjusted bottom padding for custom caption only */
+    max-height: calc(100vh - 100px) !important;
+    object-fit: contain !important;
+}
+
+:global(.yarl__thumbnails_container) {
+    background-color: rgba(20, 20, 20, 0.95) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+:global(.yarl__thumbnails_track) {
+    padding: 10px 0 !important;
+}
+
+:global(.yarl__thumbnails_thumbnail) {
+    background: #111 !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+:global(.yarl__thumbnails_thumbnail_active) {
+    border-color: #fff !important;
+}
+
+.customCaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+    text-align: center;
+    z-index: 10;
+}
+
+.customTitle {
+    font-family: var(--font-eb-garamond);
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.customDescription {
+    font-family: var(--font-lato);
+    font-size: 14px;
+    color: #ccc;
+    margin: 0;
+}
+
+

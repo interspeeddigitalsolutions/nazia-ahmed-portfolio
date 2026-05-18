@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero";
 import ProfileBio from "@/components/ProfileBio";
 import Works from "@/components/Works";
+import ArtworksGallery from "@/components/ArtworksGallery";
 import Recognitions from "@/components/Recognitions";
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
           <Hero />
           <ProfileBio />
           <Works />
+          <ArtworksGallery />
           <Recognitions />
           <Education />
           <Footer />

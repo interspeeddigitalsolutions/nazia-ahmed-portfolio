@@ -1,0 +1,56 @@
+[
+  {
+    "image": "image1.jpeg",
+    "path": "assets/artworks/image1.jpeg",
+    "name": "Ignite Light",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image2.jpeg",
+    "path": "assets/artworks/image2.jpeg",
+    "name": "Soulmates",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image3.jpeg",
+    "path": "assets/artworks/image3.jpeg",
+    "name": "Mirror of Emotions",
+    "paintType": "Acrylic on canvas"
+  },
+  {
+    "image": "image4.jpeg",
+    "path": "assets/artworks/image4.jpeg",
+    "name": "Waves of Emotions",
+    "paintType": "Acrylic on canvas"
+  },
+  {
+    "image": "image5.jpeg",
+    "path": "assets/artworks/image5.jpeg",
+    "name": "",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image6.jpeg",
+    "path": "assets/artworks/image6.jpeg",
+    "name": "",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image7.jpeg",
+    "path": "assets/artworks/image7.jpeg",
+    "name": "Soulful Moments",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image8.jpeg",
+    "path": "assets/artworks/image8.jpeg",
+    "name": "Eternal Moments",
+    "paintType": "Oil on canvas"
+  },
+  {
+    "image": "image9.jpeg",
+    "path": "assets/artworks/image9.jpeg",
+    "name": "Seed of Wisdom",
+    "paintType": "Bronze"
+  }
+]
